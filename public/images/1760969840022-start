@@ -1,0 +1,2 @@
+/* Account on central wiki is not attached (this shouldn't happen) */
+(function(){const t=new Date();t.setTime(t.getTime()+86400000);try{localStorage.setItem('CentralAuthAnon',t.getTime());}catch(e){try{document.cookie='CentralAuthAnon=1; expires='+t.toGMTString()+'; path=/';}catch(e2){}}}());
